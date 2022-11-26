@@ -11,13 +11,13 @@ const getStorageTheme = () => {
 };
 
 function App() {
-  const [theme, setTheme] = useState(getStorageTheme());
+  const [theme, setThemeType] = useState(getStorageTheme());
 
   const toggleTheme = () => {
     if (theme === "light-theme") {
-      setTheme("dark-theme");
+      setThemeType("dark-theme");
     } else {
-      setTheme("light-theme");
+      setThemeType("light-theme");
     }
   };
 
