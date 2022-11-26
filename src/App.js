@@ -12,7 +12,6 @@ const getStorageTheme = () => {
 
 function App() {
   const [theme, setThemeType] = useState(getStorageTheme());
-
   const toggleTheme = () => {
     if (theme === "light-theme") {
       setThemeType("dark-theme");
