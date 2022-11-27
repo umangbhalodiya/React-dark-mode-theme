@@ -25,6 +25,7 @@ function App() {
     localStorage.setItem("theme", theme);
     console.log("theme", theme);
   }, [theme]);
+  
   return (
     <main>
       <nav>
