@@ -2,12 +2,12 @@ const messages = [
   {
     id: 1,
     title: "Karma",
-    snippet: `There's no reaction without action`,
+    snippet: `There's no reaction without action.`,
   },
   {
     id: 2,
     title: "Love",
-    snippet: `When you like a flower you just pluck it when you love a flower you water it daily`,
+    snippet: `When you like a flower you just pluck it when you love a flower you water it daily.`,
   },
   {
     id: 3,
