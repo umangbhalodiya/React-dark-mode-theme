@@ -37,10 +37,6 @@ function App() {
         </div>
       </nav>
       <section className="articles">
-        {/* {data?.map((item) => {
-          return <Article key={item?.id} {...item} />;
-        })} */}
-
         {theme === "dark-theme" ? data?.map((item) => {
           return <Article key={item?.id} {...item} />;
         }) : data?.reverse().map((item) => {
