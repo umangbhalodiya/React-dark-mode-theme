@@ -36,7 +36,7 @@ function App() {
         </div>
       </nav>
       <section className="articles">
-        {data.map((item) => {
+        {data?.map((item) => {
           return <Article key={item?.id} {...item} />;
         })}
       </section>
