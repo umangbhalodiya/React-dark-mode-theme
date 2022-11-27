@@ -24,6 +24,11 @@ const messages = [
     title: "Money",
     snippet: `Money and success don't change people; they merely amplify what is already there.`,
   },
+  {
+    id: 6,
+    title: "Hard work",
+    snippet: `Hard work beats talent when talent doesn't work hard.`,
+  },
 ];
 
 export default messages;
